@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Breaks</string>
+    <string name="user_token_label">session_token</string>
+    <string name="api_endpoint">http://10.0.1.30:3001/api/</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_confirm">Confirm Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_confirm_password">Confirm Password doesn\'t match</string>
+    <string name="error_blank_field">Can\'t be blank</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_sign_up">Create Team</string>
+    <string name="link_sign_up">Create a Team...</string>
+    <string name="link_reset_password">Forgot password?</string>
+    <string name="prompt_team">Team name</string>
+    <string name="label_domain">.breaks.co</string>
+    <string name="prompt_country">Country</string>
+    <string name="title_sign_up">New Team</string>
+
+    <string name="error_connection_lost">Error! Internet connection not detected</string>
+
+    <string name="team_name_hint">Only numbers, letters, dashes and underscores allowed</string>
+
+
+    <string name="filter_team_name">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPADSFGHJKLZXCVBNM-_</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="action_log_out">Log Out</string>
+    <string name="action_add_people">Add Member</string>
+
+    <string name="action_create">Create</string>
+    <string name="title_add_people">New Member</string>
+    <string name="prompt_start_wroking_date">Started Working Date</string>
+
+    <string name="action_make_request">Request Vacations</string>
+    <string name="prompt_start_date">Start date</string>
+    <string name="prompt_end_date">End date</string>
+    <string name="prompt_message">Message (Optional)</string>
+    <string name="action_request_response">Details</string>
+    <string name="action_request_reply">Reply</string>
+    <string name="action_send_request">Send request</string>
+    <string name="request_not_approved">Not approved</string>
+    <string name="request_approved">Approved</string>
+    <string name="request_rejected">Rejected</string>
+    <string name="new_request">New Request</string>
+
+    <string name="prompt_comments">Comments (Optional)</string>
+    <string name="prompt_approve">Approve</string>
+    <string name="prompt_reject">Reject</string>
+    <string name="message_title">Message: </string>
+    <string name="comments_title">Comments:</string>
+
+    <string-array name="roles_array">
+        <item>User</item>
+        <item>Admin</item>
+
+    </string-array>
+    <string name="title_activity_request_detail">RequestDetailActivity</string>
+</resources>
